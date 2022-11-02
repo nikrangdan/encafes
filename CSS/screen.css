@@ -1,0 +1,36 @@
+.container {
+    max-width: 940px;
+}
+
+P {
+    color: purple;
+}
+
+footer p {
+    color: red;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+}
+
+header p {
+    color:violet;
+}
+
+header p span {
+    color: royalblue;
+}
+
+.highlight {
+    color: salmon;
+    background-color: palegoldenrod;
+}
+
+.brand-color {
+    color: purple;
+    background-color: burlywood;
+}

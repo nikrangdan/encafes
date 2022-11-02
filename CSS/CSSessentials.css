@@ -1,0 +1,168 @@
+html {
+    background-color: #cdeefd;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 87%
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+
+.banner-description p {
+    color: white;
+}
+/* End Banner Overlay */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%
+}
+
+header p {
+    margin: 0;
+}
+
+/*Site Navigation*/
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding:0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #8CBDD6;
+    padding: 10px 20px;
+    border: 2px solid #8CBED6;
+    display: block;
+}
+
+.site nav a:hover {
+    background-color: #8CBED6;
+}
+
+/*End Site Navigation*/
+
+.content-area {
+    margin-top: 10px;
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+    background-color: #FFF;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color:#b3e5fc;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+            }
+.group:after {
+    clear:both;
+    }
+P {
+    color: purple;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color:violet;
+}
+
+header p span {
+    color: royalblue;
+}
+
+.highlight {
+    color: salmon;
+    background-color: palegoldenrod;
+}
+
+.brand-color {
+    color: purple;
+    background-color: burlywood;
+}
